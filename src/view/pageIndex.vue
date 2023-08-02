@@ -386,25 +386,25 @@
         </div>
         <div class="logos">
           <el-row style="width: 100%;" :gutter="0">
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo1" src="@/assets/img/logo1.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo2" src="@/assets/img/logo2.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo3" src="@/assets/img/logo3.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo4" src="@/assets/img/logo4.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo5" src="@/assets/img/logo5.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo6" src="@/assets/img/logo6.png">
             </el-col>
-            <el-col style="min-height: 60px;" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
+            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
               <img class="logo7" src="@/assets/img/logo7.png">
             </el-col>
           </el-row>
@@ -1354,7 +1354,13 @@ export default {
     justify-content: space-between;
     align-items: center;
     height: 45px;
-
+    .logo{
+      min-height: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     .logo1 {
       width: 6rem;
       height: 2.625rem;

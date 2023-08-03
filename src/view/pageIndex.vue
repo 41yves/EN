@@ -855,7 +855,7 @@ export default {
     .box3,
     .box4 {
       height: 31rem;
-      padding: 7.06rem 5rem 7.12rem;
+      padding: 5.06rem 5rem 7.12rem;
       box-sizing: border-box !important;
       color: #fff;
       text-align: left;

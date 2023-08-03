@@ -120,7 +120,7 @@
         <div class="stepContent" v-if="active == 1">
           <div class="stepTitle">
             <a class="link" href="https://arxiv.org/pdf/2203.17054.pdf" target="	_blank">BEVDet4D</a>: A New Paradigm of
-            Vision-centered Autonomous Driving in the Spatial-Temporal 4D Space based on BEVDet
+            Vision-centered Autonomous Driving in the Spatial-temporal 4D Space based on BEVDet
           </div>
           <div class="tips">BEVDet4D elevates the scalable BEVDet paradigm from the spatial-only 3D working space to the
             spatial-temporal 4D working space. By incorporating spatial-temporal 4D space modeling for autonomous driving
@@ -132,7 +132,7 @@
             <a class="link" href="https://arxiv.org/abs/2205.09743" target="	_blank">BEVerse</a>: Vision-centered Unified
             Giant Perception Framework
           </div>
-          <div class="tips">BEVerse Integrated perception architecture combined with 3D Perception, Prediction and Local
+          <div class="tips">BEVerse integrated perception architecture combined with 3D Perception, Prediction and Local
             Road Structure Mapping. BEVerse has achieved the optimal performance of three tasks in nuScenes.</div>
         </div>
         <div class="stepContent" v-if="active == 3">
@@ -168,25 +168,8 @@
             <div class="videoname">Automatically case mining</div>
           </el-col>
         </el-row>
-        <!-- <div class="dataVideos">
-        <div>
-          <video class="videoBoxs" width="625" height="307" src="@/assets/video/data1.mp4" loop="loop" muted="muted"
-            controls="controls">
-            <source src="@/assets/video/data1.mp4" type="video/mp4">
-          </video>
-          <div class="videoname">4D Labeling for video sequences</div>
-        </div>
-        <div>
-          <video class="videoBoxs" width="625" height="307" src="@/assets/video/data2.mp4" loop="loop" muted="muted"
-            controls="controls">
-          </video>
-          <div class="videoname">Automatically case mining</div>
-        </div>
-      </div> -->
         <div class="typeTips">
-          Autonomous driving solutions are powered by end-to-end scalable capabilities from sensor layers to perception
-          and
-          planning & control layer.
+          PhiGent Robotics provides whole tool chain to OEMs, and provides on-site services to let OEMs use that toolsets in house, without sharing data out of OEMs.
         </div>
         <div class="type">Heterogeneous Computing Development Paradigm</div>
         <img style="width:100%" class="four" src="@/assets/img/four.png">
@@ -385,29 +368,50 @@
           <div> PhiGent Robotics is developing rapidly and continuously increasing in value.</div>
         </div>
         <div class="logos">
-          <el-row style="width: 100%;" :gutter="0">
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo1" src="@/assets/img/logo1.png">
+          <!-- <el-row style="width: 100%;" :gutter="0">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-1.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo2" src="@/assets/img/logo2.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-2.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo3" src="@/assets/img/logo3.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-3.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo4" src="@/assets/img/logo4.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-4.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo5" src="@/assets/img/logo5.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-5.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo6" src="@/assets/img/logo6.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-6.png">
             </el-col>
-            <el-col class="logo" :xs="8" :sm="8" :md="8" :lg="3" :xl="3">
-              <img class="logo7" src="@/assets/img/logo7.png">
+            <el-col class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-7.png">
             </el-col>
-          </el-row>
+          </el-row> -->
+          <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-1.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-2.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-3.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-4.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-5.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-6.png">
+            </div>
+            <div class="logo" :sapn="3">
+              <img class="logo1" src="@/assets/img/logo-7.png">
+            </div>
         </div>
       </div>
     </div>
@@ -714,6 +718,7 @@ export default {
 
   .type {
     text-align: left;
+    margin-top: 1.87rem;
     margin-bottom: 1.87rpx;
     color: #000;
     font-family: Alibaba PuHuiTi 3.0;
@@ -879,7 +884,7 @@ export default {
   .cycle {
     box-sizing: border-box;
     width: 100%;
-    max-width: 100vw;
+    // max-width: 100vw;
     /* height: 35.125rem; */
     flex-shrink: 0;
     background: #F5F6FB;
@@ -936,7 +941,7 @@ export default {
 
   .four {
     width: 100%;
-    max-width: 100vw;
+    // max-width: 100vw;
     /* height: 28rem; */
     flex-shrink: 0;
     margin-bottom: 1.87rem;
@@ -985,19 +990,19 @@ export default {
     width: 100%; */
 
     .box1 {
-      background: url('@/assets/img/solution1.png') no-repeat 100%, rgba(0, 0, 0, 0.30);
+      background: url('@/assets/img/solution1.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box2 {
-      background: url('@/assets/img/solution2.png') no-repeat 100%, rgba(0, 0, 0, 0.30);
+      background: url('@/assets/img/solution2.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box3 {
-      background: url('@/assets/img/solution3.png') no-repeat 100%, rgba(0, 0, 0, 0.30);
+      background: url('@/assets/img/solution3.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box4 {
-      background: url('@/assets/img/solution4.png') no-repeat 100%, rgba(0, 0, 0, 0.30);
+      background: url('@/assets/img/solution4.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box1,
@@ -1303,8 +1308,8 @@ export default {
           padding-top: 4px;
 
           .icon {
-            width: 1.5rempx;
-            height: 1.5rempx;
+            width: 1.5rem;
+            height: 1.5rem;
           }
         }
 
@@ -1353,48 +1358,49 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 45px;
     .logo{
-      min-height: 60px;
+      // min-height: 60px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
     .logo1 {
-      width: 6rem;
-      height: 2.625rem;
+      width: 8rem;
+      // height: 2.625rem;
     }
 
-    .logo2 {
-      width: 7.25rem;
-      height: 2.8125rem;
-    }
+    // .logo2 {
+    //   width: 7.25rem;
+    //   height: 2.8125rem;
+    // }
 
-    .logo3 {
-      width: 6.5625rem;
-      height: 2.1875rem;
-    }
+    // .logo3 {
+    //   width: 6.5625rem;
+    //   height: 2.1875rem;
+    // }
 
-    .logo4 {
-      width: 6.75rem;
-      height: 2.25rem;
-    }
+    // .logo4 {
+    //   width: 6.75rem;
+    //   height: 2.25rem;
+    // }
 
-    .logo5 {
-      width: 9.625rem;
-      height: 1.8125rem;
-    }
+    // .logo5 {
+    //   width: 9.625rem;
+    //   height: 1.8125rem;
+    // }
 
-    .logo6 {
-      width: 6.0625rem;
-      height: 1.4375rem;
-    }
+    // .logo6 {
+    //   width: 6.0625rem;
+    //   height: 1.4375rem;
+    // }
 
-    .logo7 {
-      width: 7.4375rem;
-      height: 2.75rem;
-    }
+    // .logo7 {
+    //   width: 7.4375rem;
+    //   height: 2.75rem;
+    // }
   }
 }
 

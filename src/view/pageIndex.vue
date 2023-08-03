@@ -1,12 +1,6 @@
 <template>
   <div class="continer">
     <div class="title">
-      <!-- <div class="header">
-        <div class="lang">
-          <span class="cn">中/</span>
-          EN
-        </div>
-      </div> -->
       <div class="content">
         <img style="width:100px" class="titleImg1" src="@/assets/img/title.png">
         <img class="indexlogo" src="@/assets/img/logo_black.png">
@@ -90,21 +84,6 @@
             <img class="mini" src="@/assets/img/mini_point.png">
           </div>
         </div>
-        <!-- <div class="stepText">
-        <div class="name" hover="check" :class="active == 0 ? 'check' : ''">BEVDet
-          <div @click="active = 0" class="box"></div>
-        </div>
-        <div class="name" :class="active == 1 ? 'check' : ''">BEVDet4D
-          <div @click="active = 1" class="box"></div>
-        </div>
-        <div class="name" :class="active == 2 ? 'check' : ''">BEVerse
-          <div @click="active = 2" class="box"></div>
-        </div>
-        <div class="name" :class="active == 3 ? 'check' : ''">TPVFormer
-          <div @click="active = 3" class="box"></div>
-        </div>
-        <div></div>
-      </div> -->
         <div class="stepContent" v-if="active == 0">
           <div class="stepTitle">
             <a class="link" href="https://arxiv.org/abs/2112.11790" target="	_blank">BEVDet</a>：A New Paradigm of
@@ -368,29 +347,6 @@
           <div> PhiGent Robotics is developing rapidly and continuously increasing in value.</div>
         </div>
         <div class="logos">
-          <!-- <el-row style="width: 100%;" :gutter="0">
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-1.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-2.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-3.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-4.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-5.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-6.png">
-            </el-col>
-            <el-col class="logo" :sapn="3">
-              <img class="logo1" src="@/assets/img/logo-7.png">
-            </el-col>
-          </el-row> -->
           <div class="logo" :sapn="3">
               <img class="logo1" src="@/assets/img/logo-1.png">
             </div>
@@ -508,10 +464,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-/* page {
-  font-size: 16px;
-} */
-
 .continer {
   min-width: 1220px;
   box-sizing: border-box;
@@ -533,46 +485,6 @@ export default {
   flex-direction: column;
 }
 
-/* .header {
-  box-sizing: border-box;
-  max-width: 90rem;
-  position: absolute;
-  top: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  padding: 0 5rem;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-  .logo {
-    width: 110px;
-    height: 37px;
-  }
-
-  .lang {
-    color: #000;
-    font-family: Source Han Sans CN;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: 17.631px;
-  }
-
-  .cn {
-    color: rgba(0, 0, 0, 0.50);
-    text-align: center;
-    font-family: Source Han Sans CN;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 350;
-    line-height: 17.631px;
-  }
-} */
-
 .videoBox,
 .videoBoxs {
   background-color: #000;
@@ -590,21 +502,15 @@ export default {
 
 .title {
   min-width: 1220px;
-  /* max-width: 1440px; */
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  /* width: 90rem; */
-  /* min-height: 45.0625rem; */
   flex-shrink: 0;
   background: #F6F7FA;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* background: url('@/assets/img/title.png') no-repeat 100%/100%; */
-
-
   .content {
     min-width: 1220px;
     max-width: 1440px;
@@ -617,7 +523,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 1.96875rem */
     letter-spacing: 0.01969rem;
     position: relative;
 
@@ -628,7 +533,6 @@ export default {
     }
 
     .indexTitle {
-      /* margin-top: 47px; */
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
@@ -666,7 +570,6 @@ export default {
       font-style: normal;
       font-weight: 500;
       line-height: 168%;
-      /* 2.625rem */
       text-transform: capitalize;
       margin-bottom: 4.31rem;
     }
@@ -678,7 +581,6 @@ export default {
       font-style: normal;
       font-weight: 400;
       line-height: 162%;
-      /* 1.62rem */
       letter-spacing: 0.02rem;
     }
   }
@@ -692,7 +594,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 162%;
-    /* 1.62rem */
     letter-spacing: 0.02rem;
   }
 }
@@ -712,7 +613,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3.5625rem */
 
   }
 
@@ -726,7 +626,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3rem */
     letter-spacing: 0.01rem;
     margin-bottom: 1.87rem;
   }
@@ -803,41 +702,6 @@ export default {
     }
   }
 
-  /* .stepText {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: #000;
-    font-family: Alibaba PuHuiTi 3.0;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.0075rem;
-    margin-bottom: 1.87rem;
-
-    .check {
-      color: #E60012;
-    }
-
-    .name {
-      position: relative;
-      margin-right: 10px;
-    }
-
-    .box {
-      content: '';
-      width: 100%;
-      height: 7rem;
-      background-color: transparent;
-      position: absolute;
-      left: 0;
-      top: -4rem;
-      z-index: 999;
-    }
-  } */
-
   .stepContent {
     text-align: left;
     margin-bottom: 3.75rem;
@@ -851,7 +715,6 @@ export default {
       font-style: normal;
       font-weight: 500;
       line-height: 175.5%;
-      /* 2.19375rem */
       letter-spacing: 0.00625rem;
 
       .link {
@@ -868,14 +731,12 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 175.5%;
-    /* 2.19375rem */
     letter-spacing: 0.00625rem;
     margin-bottom: 1.87rem;
   }
 
   .car {
     width: 100%;
-    /* height: 32.625rem; */
     flex-shrink: 0;
     margin-bottom: 3.75rem;
 
@@ -884,8 +745,6 @@ export default {
   .cycle {
     box-sizing: border-box;
     width: 100%;
-    // max-width: 100vw;
-    /* height: 35.125rem; */
     flex-shrink: 0;
     background: #F5F6FB;
     padding: 0 10.34rem;
@@ -900,8 +759,6 @@ export default {
 
   .cycleimg1 {
     width: 100%;
-    /* height: 27.9375rem; */
-    /* flex-shrink: 0; */
   }
 
   .dataVideos {
@@ -920,7 +777,6 @@ export default {
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
-      /* 2.25rem */
       letter-spacing: 0.0075rem;
     }
 
@@ -934,15 +790,12 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 175.5%;
-    /* 2.19375rem */
     letter-spacing: 0.00625rem;
     margin-bottom: 5rem;
   }
 
   .four {
     width: 100%;
-    // max-width: 100vw;
-    /* height: 28rem; */
     flex-shrink: 0;
     margin-bottom: 1.87rem;
   }
@@ -956,7 +809,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 175.5%;
-    /* 2.19375rem */
     letter-spacing: 0.00625rem;
     margin-bottom: 7.5rem;
   }
@@ -975,7 +827,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3.5625rem */
   }
 
   .boxs {
@@ -983,12 +834,6 @@ export default {
     min-width: 1220px;
     box-sizing: border-box;
     margin-top: 2.5rem;
-    /* displa
-    y: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%; */
-
     .box1 {
       background: url('@/assets/img/solution1.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
@@ -1009,10 +854,6 @@ export default {
     .box2,
     .box3,
     .box4 {
-      /* width: 720px;
-      height: 510px; */
-      /* width: 45rem;
-      height: 32.25rem; */
       height: 31rem;
       padding: 7.06rem 5rem 7.12rem;
       box-sizing: border-box !important;
@@ -1106,7 +947,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3.5625rem */
   }
 
   .content {
@@ -1118,14 +958,12 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 169.5%;
-    /* 1.90688rem */
     letter-spacing: 0.00563rem;
 
   }
 
   .img {
     width: 100%;
-    /* height: 31.9375rem; */
   }
 }
 
@@ -1144,7 +982,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3.5625rem */
 
   }
 
@@ -1157,7 +994,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 169.5%;
-    /* 1.90688rem */
     letter-spacing: 0.00563rem;
 
   }
@@ -1233,7 +1069,6 @@ export default {
       font-style: normal;
       font-weight: 400;
       line-height: 218%;
-      /* 2.4525rem */
       letter-spacing: 0.00563rem;
       text-align: left;
     }
@@ -1262,7 +1097,6 @@ export default {
         font-style: normal;
         font-weight: 500;
         line-height: 181.5%;
-        /* 2.60906rem */
         text-transform: capitalize;
       }
 
@@ -1334,8 +1168,6 @@ export default {
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    /* 3.5625rem */
-    /* 3.5625rem */
 
   }
 
@@ -1348,7 +1180,6 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 169.5%;
-    /* 1.90688rem */
     letter-spacing: 0.00563rem;
 
   }
@@ -1361,7 +1192,6 @@ export default {
     flex-wrap: wrap;
     height: 45px;
     .logo{
-      // min-height: 60px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1369,38 +1199,8 @@ export default {
     }
     .logo1 {
       width: 8rem;
-      // height: 2.625rem;
     }
 
-    // .logo2 {
-    //   width: 7.25rem;
-    //   height: 2.8125rem;
-    // }
-
-    // .logo3 {
-    //   width: 6.5625rem;
-    //   height: 2.1875rem;
-    // }
-
-    // .logo4 {
-    //   width: 6.75rem;
-    //   height: 2.25rem;
-    // }
-
-    // .logo5 {
-    //   width: 9.625rem;
-    //   height: 1.8125rem;
-    // }
-
-    // .logo6 {
-    //   width: 6.0625rem;
-    //   height: 1.4375rem;
-    // }
-
-    // .logo7 {
-    //   width: 7.4375rem;
-    //   height: 2.75rem;
-    // }
   }
 }
 
@@ -1438,7 +1238,6 @@ export default {
       font-style: normal;
       font-weight: 500;
       line-height: 150%;
-      /* 1.3125rem */
       letter-spacing: 0.02625rem;
       margin-right: 1rem;
       text-align: left;
@@ -1461,7 +1260,6 @@ export default {
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
-      /* 1.125rem */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -1494,24 +1292,9 @@ export default {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    /* 0.875rem */
 
   }
 
 }
-
-/* h3 {
-    margin: 40px 0 0;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
-  } */</style>
+</style>
   

@@ -835,19 +835,19 @@ export default {
     box-sizing: border-box;
     margin-top: 2.5rem;
     .box1 {
-      background: url('@/assets/img/solution1.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
+      background: url('@/assets/img/solution1.png') no-repeat 100%/cover,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box2 {
-      background: url('@/assets/img/solution2.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
+      background: url('@/assets/img/solution2.png') no-repeat 100%/cover,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box3 {
-      background: url('@/assets/img/solution3.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
+      background: url('@/assets/img/solution3.png') no-repeat 100%/cover,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box4 {
-      background: url('@/assets/img/solution4.png') no-repeat 100%/100%,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
+      background: url('@/assets/img/solution4.png') no-repeat 100%/cover,linear-gradient(to right,rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30));
     }
 
     .box1,
